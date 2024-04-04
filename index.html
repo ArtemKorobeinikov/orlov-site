@@ -18,17 +18,17 @@
             <p class="face__logo"></p>
             <p class="face__surname">ORLOV</p>
             <div class="navigation">
-                <a class="navigation__link" href="/">портфолио</a>
-                <a class="navigation__link" href="/">компетенции</a>
-                <a class="navigation__link" href="/">услуги</a>
-                <a class="navigation__link" href="/">контакты</a>
+                <a class="navigation__link" href="#projects">портфолио</a>
+                <a class="navigation__link" href="#competencies">компетенции</a>
+                <a class="navigation__link" href="#tascs">услуги</a>
+                <a class="navigation__link" href="#contacts">контакты</a>
             </div>
             <p class="face__p">Разрабатываю имиджевые сайты для малого и среднего бизнеса, которые повышают престиж компании и позволяют выделиться на фоне конкурентов</p>
             <h1 class="face__headings">Привет, я Саша — фронтенд разарботчик и дизайнер сайтов</h1>
         </div>
     </header>
     <main>
-        <section class="project">
+        <section id="projects" class="project">
             <div class="projects">
                 <h2 class="headings__2">Самые свежие проекты</h2>
                 <ul class="projects__new">
@@ -48,7 +48,7 @@
                 <a class="projects__all" href="/">Смотреть все проекты</a>
             </div>
         </section>
-        <section class="competencies">
+        <section id="competencies" class="competencies">
             <h2 class="headings__2">Мои компетенции</h2>
             <ul class="my__competencies">
                 <li class="my__competencie">
@@ -73,12 +73,50 @@
                 </li>
             </ul>
         </section>
-        <section class="tascs">
+        <section id="tascs" class="tascs">
             <h2 class="headings__2 tascs__h2">Помогаю реализовать широкий спектр задач</h2>
+            <ul class="tascs__group">
+                <li class="tascs__block">
+                    <img class="tascs__img" src="/resources/development.png" alt="Страницы сайта">
+                    <div class="tascs__contein">
+                        <h5 class="heading__5">Разработка сайта под ключ</h5>
+                        <p class="tascs__p">Это создание дизайн веб-сайтов, созданный для удобства пользователя и решения бизнес-задач
+                            Сайты должны быть понятными и удобными, ведь чем понятнее сайт, тем быстрее пользователь совершит целевое действие</p>
+                    </div>
+                </li>
+                <li class="tascs__block">
+                    <img class="tascs__img" src="/resources/layoyt.png" alt="Страницы сайта">
+                    <div class="tascs__contein">
+                        <h5 class="heading__5">Верстка сайтов</h5>
+                        <p class="tascs__p">Это процесс создания HTML-документов и применения к ним стилей на CSS. Фронтенд разработчик может помочь создать привлекательный и удобный интерфейс для вашего сайта</p>
+                    </div>
+                </li>
+                <li class="tascs__block">
+                    <img class="tascs__img interface" src="/resources/interface.png" alt="Страницы мобильного приложения">
+                    <div class="tascs__contein">
+                        <h5 class="heading__5">Разработка мобильного интерфейса</h5>
+                        <p class="tascs__p">Это процесс создания интерактивных элементов на странице с помощью JavaScript. Фронтенд разработчик может помочь создать динамический и удобный пользовательский интерфейс для вашего сайта или приложения.</p>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <section id="contacts" class="contacts">
+            <div class="contacts__contein">
+                <h6 class="contacts__heading">для связи:</h6>
+                <a class="contacts__link inst" href="/">instagram</a>
+                <a class="contacts__link tg" href="/">telegram</a>
+                <a class="contacts__link mail" href="mailto:/">mail</a>
+                <img class="contacts__img" src="/resources/programmer_cuate.png" alt="Карикатура разработчика">
+            </div>
         </section>
     </main>
     <footer>
-
+        <div class="footer">
+            <div class="footer__block">
+                <p class="portfolio">Портфолио фротнтенд-разработчика Саши Орлова</p>
+                <p class="rights">Все права защищены. 2023</p>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
